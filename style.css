@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Outfit";
+  src: local("Outfit"), url("./assets/fonts/Outfit-VariableFont_wght.ttf");
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: grid;
+}
+
+.card {
+  display: grid;
+  justify-self: center;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 5%;
+  height: 690px;
+  width: 430px;
+}
+
+.equilibrium {
+  display: grid;
+  width: 320px;
+  height: 320px;
+  border-radius: 20px;
+  margin: 11%;
+}
+
+h1 {
+  display: grid;
+  color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+  margin: -40px 10px 10px 60px;
+}
+
+p {
+  display: grid;
+  color: hsl(215, 32%, 27%);
+  font-size: 18px;
+  font-family: Outfit;
+  margin: 5px 10px 10px 60px;
+  grid-auto-columns: 290px;
+}
+
+.ethereum {
+  display: grid;
+  color: hsl(178, 100%, 50%);
+  margin: -30px 10px 100px 80px;
+}
+
+.ethereum-svg {
+  display: grid;
+  margin: 15px 10px 10px 60px;
+}
+
+.clock {
+  display: grid;
+  margin: -125px 10px 10px 250px;
+}
+
+.clock-svg {
+  display: grid;
+  margin: -123px 10px 50px 225px;
+  background: linear-gradient(to right, hsl(215, 32%, 27%), hsl(215, 32%, 27%));
+}
+
+hr {
+  width: 70%;
+  height: 1px;
+  border: 0 none;
+  margin: -80px auto 90px 25px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  margin: -80px 10px 10px 50px;
+}
+
+.creation {
+  display: grid;
+  margin: -70px 10px 10px 160px;
+}
+
+.jules {
+  display: grid;
+  margin: -71px 10px 10px 260px;
+  color: hsl(0, 0%, 100%);
+}
